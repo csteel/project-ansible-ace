@@ -5,5 +5,7 @@
 
 - include: deployment_user.yml
   when: ansible_ssh_user == 'vagrant'
-- include: shorewall.yml
 
+- include: shorewall.yml
+  when: ansible_ssh_user == 'vagrant'
+  when: "'shorewall' in {{ group_names }}"
