@@ -1,0 +1,5 @@
+[defaults]
+# has ansible doing full logging
+log_path = ../ansible.log
+hostfile = inventory/vagrant_ansible_inventory
+
