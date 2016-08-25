@@ -1,3 +1,31 @@
+# temp files
+*~
+
+# private files
+
+.private
+.prv
+
+# Ansible files
+
+*.retry
+.vault
+ansible.log
+facts/
+
+# Ansible directories
+
+# We want these items in a private repository
+
+group_vars/*
+host_vars/*
+
+# the roles directory contains other repositories
+
+roles/*
+
+# Python related stuff from her on out
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
