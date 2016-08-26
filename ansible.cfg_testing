@@ -1,5 +1,4 @@
 [defaults]
-# has ansible doing full logging
 log_path = ../ace_logs/ansible.log
 hostfile = ../ace_test_vms/ansible/inventory/vagrant_ansible_inventory
 
